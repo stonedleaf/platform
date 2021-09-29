@@ -21,6 +21,7 @@
                            data-target="picture-raw.upload"
                            data-action="change->picture-raw#upload"
                            {{ $attributes }}
+                           style="display: none !important;"
                            class="d-none picture-raw-uploader">
                     <input type="hidden"
                         class="picture-raw-removechecker"
